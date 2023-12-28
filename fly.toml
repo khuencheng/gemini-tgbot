@@ -1,0 +1,9 @@
+
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "gemini-tgbot"
+#primary_region = "nrt"
+kill_signal = "SIGINT"
+kill_timeout = 5
+processes = []
